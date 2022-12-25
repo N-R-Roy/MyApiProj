@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+</head>
+<body>
+
+  <h1>Student List</h1>
+  <ul>
+      {% for student in students %}
+      <li>{{student.sid}} - {{student.name}} - {{student.age}} - {{student.image.url}}</li>
+      <img src="{{student.image.url}}" height="50px" width="60px">
+      {% endfor %}
+  </ul>
+
+  <h1>{{status}}</h1>
+
+  <h1>{{value}}</h1>
+
+
+</body>
+</html>
