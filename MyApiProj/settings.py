@@ -93,8 +93,6 @@ DATABASES = {
 
     # This is for mysql db
     # 'default': {
-    #     # 'ENGINE': 'django.db.backends.sqlite3',
-    #     # 'NAME': BASE_DIR / 'db.sqlite3',
     #     'ENGINE': 'django.db.backends.mysql',
     #     'NAME': 'mydb',
     #     'HOST': 'localhost',
@@ -105,8 +103,6 @@ DATABASES = {
 
     # This is for postgresql db
     # 'default': {
-    #     # 'ENGINE': 'django.db.backends.sqlite3',
-    #     # 'NAME': BASE_DIR / 'db.sqlite3',
     #     'ENGINE': 'django.db.backends.postgresql',
     #     'NAME': 'mydb',
     #     'HOST': 'localhost',
